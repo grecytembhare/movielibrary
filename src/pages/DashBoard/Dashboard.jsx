@@ -140,7 +140,10 @@ function Dashboard() {
 					</DropdownMenu>
 				</header>
 				{/* main area */}
+				<div className="flex w-screen justify-center items-center mt-3" >
 				<Outlet />
+
+				</div>
 
 			</div>
 		</div>
